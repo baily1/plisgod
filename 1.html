@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description">
+    <title>Portafolio de Pablo Ramírez</title>
+    <link rel="stylesheet" href="css/s1.css" type="text/css">
+    <link href="/img/flavi.png" rel="icon" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="container flex-nav">
+            <div class="nav-header">
+                <button class="nav-toggle" id="navToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <nav class="nav-links" id="nav-links">
+                <ul>
+                    <li class="nav-link"><a href="#yo">Yo, mi yo</a></li>
+                    <li class="nav-link"><a href="2.html">b.a.i.l.y</a></li>
+                    <li class="nav-link"><a href="3.html">El Arte Alegal</a></li>
+                    <li class="nav-link"><a href="https://blogdenotas556042944.wordpress.com/">Blog de notas</a></li>
+                    <li class="nav-link"><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <script src="js/1.js"></script>
+    <section id="yo">
+        <div>
+            <h1 class="yo_title">Yo, mi yo</h1>
+        </div>
+        <div class="text">
+            <input type="checkbox" id="btnControl"/>
+            <label class="btn" for="btnControl">
+                <img src="/img/cara.jpeg" alt="" class="yo_img">
+            </label>
+            <div class="texto">
+            <p>
+               Me llamo Pablo Ramírez y actualmente me encuentro en el último año (espero) del Grado de Diseño y Multimedia en ESNE. Me ha costado siempre encontrar cosas que me gustasen. Aún así, ha surgido en mi una pequeña pasión en la fotografía y el cine, lo cual ya es de agradecer. En esta web podreís observar fotos que he realizado en mi tiempo libre y el video que grabé y edité para el periódico 'El Español', "El Arte Alegal". Las fotos son utilizando cámaras analógicas.
+            </p>
+            </div>
+        </div>
+    </section>
+    <section id="slider">
+        <h1 class="stitle">b.a.i.l.y</h1>
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <input type="radio" name="radio-btn" id="radio5">
+            <input type="radio" name="radio-btn" id="radio6">
+            <input type="radio" name="radio-btn" id="radio7">
+            <input type="radio" name="radio-btn" id="radio8">
+            <input type="radio" name="radio-btn" id="radio9">
+            <div class="slide first">
+                <img src="/img/1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="/img/12.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="/img/2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="/img/4.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="/img/14.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="/img/6.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="/img/7.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="/img/15.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="/img/9.jpg" alt="">
+            </div>
+        </div>
+        <div class="navi-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+            <label for="radio5" class="manual-btn"></label>
+            <label for="radio6" class="manual-btn"></label>
+            <label for="radio7" class="manual-btn"></label>
+            <label for="radio8" class="manual-btn"></label>
+            <label for="radio9" class="manual-btn"></label>
+        </div>
+        <div class="texto1">
+                <p>
+                   'be alone if lies yesus' es mi proyecto personal, por si se puede llamar así. De proyecto no tiene nada, de personal mucho. Básicamente son fotos sacadas con cámara analógica de pequeñas partes de vida.
+                </p>
+                <a class="ver" href="2.html">Ver galería</a>
+        </div>
+    </section>
+    <section id="contacto">
+        <form action="" class="formol">
+            <h1 class="formulario__titulo">Contáctame, sin miedo</h1>
+            <input type="text" class="formulario__input" required>
+            <label for="" class="formulario__label">Nombre completo</label>
+            <input type="email" class="formulario__input" required>
+            <label for="" class="formulario__label">Correo</label>
+            <input type="number" class="formulario__input" required>
+            <label for="" class="formulario__label">Teléfono</label>
+            <input type="text" class="formulario__input" required>
+            <label for="" class="formulario__label">Mensaje</label>
+            <input type="submit" onclick="clicked(event)" class="formulario__submit">
+            <a class="cv" href="cv.pdf" download="CV Pablo Ramírez">Descargar CV</a>
+        </form>
+    </section>
+</body>
